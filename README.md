@@ -30,5 +30,6 @@ results = pd.Series(results,name="Label")
 
 ### Result: submission.csv
 ### Result Visualization
-![image](https://github.com/dangminh214/Digits-Recognization/assets/51837721/72ba2cd9-3d03-43a4-a150-766db6986b0a)
+![image](https://github.com/dangminh214/Digits-Recognization/assets/51837721/9513c55e-9240-422f-970a-9cfb791befc1)
+
 
