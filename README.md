@@ -4,12 +4,12 @@
 ### Create Model  
 ```ruby
 model = keras.Sequential([
-    keras.layers.Flatten(input_shape=(28, 28)), # Perform conversion of higher dimensional data (here, 2-D) to 1-D data.
-    keras.layers.Dense(10, activation=tf.nn.leaky_relu), # Hidden layer with 10 neurons and ReLU activation function
-    keras.layers.Dense(10, activation=tf.nn.leaky_relu), # Hidden layer with 10 neurons and ReLU activation function
-    keras.layers.Dense(10, activation=tf.nn.leaky_relu), # Hidden layer with 10 neurons and ReLU activation function
-    keras.layers.Dense(10, activation=tf.nn.leaky_relu), # Hidden layer with 10 neurons and ReLU activation function
-    keras.layers.Dense(10, activation=tf.nn.softmax) # Output layer with softmax activation function 
+    keras.layers.Flatten(input_shape=(28, 28)),
+    keras.layers.Dense(10, activation=tf.nn.leaky_relu), 
+    keras.layers.Dense(10, activation=tf.nn.leaky_relu),
+    keras.layers.Dense(10, activation=tf.nn.leaky_relu), 
+    keras.layers.Dense(10, activation=tf.nn.leaky_relu), 
+    keras.layers.Dense(10, activation=tf.nn.softmax)
 ])
 ```
 
@@ -29,3 +29,6 @@ results = pd.Series(results,name="Label")
 ```
 
 ### Result: submission.csv
+### Data Visualization
+![image](https://github.com/dangminh214/Digits-Recognization/assets/51837721/72ba2cd9-3d03-43a4-a150-766db6986b0a)
+
