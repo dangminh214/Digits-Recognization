@@ -29,6 +29,6 @@ results = pd.Series(results,name="Label")
 ```
 
 ### Result: submission.csv
-### Data Visualization
+### Result Visualization
 ![image](https://github.com/dangminh214/Digits-Recognization/assets/51837721/72ba2cd9-3d03-43a4-a150-766db6986b0a)
 
